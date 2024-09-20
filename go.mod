@@ -14,7 +14,7 @@ require (
 	github.com/rancher-sandbox/ele-testhelpers v0.0.0-20240911133917-d4312809d5eb
 	github.com/rancher-sandbox/qase-ginkgo v1.0.1
 	github.com/rancher/norman v0.0.0-20240708202514-a0127673d1b9
-	github.com/rancher/rancher v0.0.0-00010101000000-000000000000
+	github.com/rancher/rancher v0.0.0-20240913180455-eddb8ca2c368
 	github.com/rancher/shepherd v0.0.0-20240913161053-43e119d13724 // rancher/shepherd release/v2.9-HEAD commit
 	github.com/sirupsen/logrus v1.9.3
 	k8s.io/apimachinery v0.30.2
@@ -106,7 +106,7 @@ require (
 	k8s.io/apiextensions-apiserver v0.30.1 // indirect
 	k8s.io/apiserver v0.30.1 // indirect
 	k8s.io/cli-runtime v0.30.1 // indirect
-	k8s.io/client-go v12.0.0+incompatible // indirect
+	k8s.io/client-go v0.30.1 // indirect
 	k8s.io/component-base v0.30.1 // indirect
 	k8s.io/klog v1.0.0 // indirect
 	k8s.io/klog/v2 v2.120.1 // indirect
@@ -124,7 +124,7 @@ require (
 )
 
 replace (
-	github.com/rancher/rancher => github.com/rancher/rancher v0.0.0-20240913180455-eddb8ca2c368 // rancher/rancher release/v2.9-HEAD commit
+//	github.com/rancher/rancher => github.com/rancher/rancher v0.0.0-20240913180455-eddb8ca2c368 // rancher/rancher release/v2.9-HEAD commit
 	go.qase.io/client => github.com/rancher/qase-go/client v0.0.0-20240308221502-c3b2635212be
-	k8s.io/client-go => k8s.io/client-go v0.30.1
+//	k8s.io/client-go => k8s.io/client-go v0.30.1
 )
